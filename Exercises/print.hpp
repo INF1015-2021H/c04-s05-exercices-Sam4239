@@ -14,7 +14,6 @@
 
 using namespace std;
 
-
 template <typename T>
 void print1(ostream& out, T* values, int nValues) {
 	out << "{";
@@ -46,7 +45,6 @@ public:
 private:
 	T values_[size] = {};
 };
-
 
 template <typename T>
 void print2(ostream& out, span<const T> values) {

@@ -40,8 +40,13 @@ void runArrayExample() {
 }
 
 void runPrintExample() {
-	int a[] = {4, 1, 3}; int b[] = {5, 6}; string c[] = {"b", "a"};
-	print1(cout, a, 3); print1(cout, b, 2); print1(cout, c, 2);
+	int a[] = { 4, 1, 3 }; int b[] = { 5, 6 }; string c[] = { "b", "a" }; 
+	Fraction d[] = { Fraction(1, 2), Fraction(2, 3) };
+	print1<int>(cout, a, 3); 
+	print1(cout, b, 2); 
+	print1(cout, c, 2); 
+	print1(cout, c, 2); 
+	print1(cout, d, 2);
 	cout << "\n";
 
 	array<int, 2> arr = {3, 2};
