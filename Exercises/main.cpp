@@ -141,12 +141,12 @@ void runLambdaExample() {
 
 
 int main() {
-	//runArrayExample();
-	//cout << "\n\n\n";
-	//runPrintExample();
-	//cout << "\n\n\n";
-	//runVectorExample();
-	//cout << "\n\n\n";
-	//runLambdaExample();
+	runArrayExample();
+	cout << "\n\n\n";
+	runPrintExample();
+	cout << "\n\n\n";
+	runVectorExample();
+	cout << "\n\n\n";
+	runLambdaExample();
 }
 
